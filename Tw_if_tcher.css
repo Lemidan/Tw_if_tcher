@@ -1,0 +1,39 @@
+/* BEM methodology */
+  /*Block section*/
+body {
+  background-color: #444444;
+}
+
+.block--toggle-main {
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  right: 5%;
+  margin-right: auto;
+  width: 90%;
+  height: webkit-fit-content;
+  background-color: #777777;
+  border-radius: 0px 0px 15px 15px;
+  -webkit- transition: 3s height;
+  transition: height 3s;
+}
+
+  /*Text section*/
+.block--text {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  text-align: center;
+}
+
+#mainTitleText {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+  /*Other*/
+#byDan {
+  margin-top: 15px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}

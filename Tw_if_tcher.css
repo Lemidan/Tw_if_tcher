@@ -18,6 +18,33 @@ body {
   transition: height 3s;
 }
 
+.block--display {
+  display: inline-block;
+  width: 90%;
+  max-height: 100px;
+  margin-top: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  background-color: #666666;
+  border: none;
+  outline: none !important;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.block--display-profilepicture {
+  max-height: 100px;
+  width: auto;
+  color: blue;
+}
+
+.block--display-username {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  margin-left: 15px;
+}
+
   /*Text section*/
 .block--text {
   font-family: 'Roboto Mono', monospace;
